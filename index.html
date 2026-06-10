@@ -389,14 +389,29 @@ footer{
   .aval-card{flex:0 0 calc(50% - 10px);}
 }
 @media(max-width:900px){
-  .nav-links,.nav-cta{display:none;}.burger{display:flex;}
+  .nav-links,.nav-cta{display:none;}
+  .burger{display:flex;}
+
   .hero{grid-template-columns:1fr;}
-.hero-right{height:75vw;min-height:420px;}  .hero-left{padding:96px 32px 64px;}
+
+  .hero-right{
+    height:75vw;
+    min-height:420px;
+  }
+
+  /* MOVE O SELO 25 ANOS PARA BAIXO */
+  .hero-badge{
+    bottom:0 !important;
+    left:10px !important;
+  }
+
+  .hero-left{padding:96px 32px 64px;}
   .sobre-inner{grid-template-columns:1fr;gap:48px;}
   .sobre-imgs{padding-bottom:40px;}
   .sobre-img-inset{width:52%;bottom:-20px;right:-12px;}
   .serv-grid{grid-template-columns:1fr 1fr;}
-  section.pad{padding:64px 32px;}footer{padding:28px 32px;flex-direction:column;align-items:flex-start;}
+  section.pad{padding:64px 32px;}
+  footer{padding:28px 32px;flex-direction:column;align-items:flex-start;}
   .brands-strip,.parcela-bar{padding:14px 32px;}
   .contact-icons{grid-template-columns:repeat(4,1fr);}
   .aval-card{flex:0 0 calc(100% - 0px);}
