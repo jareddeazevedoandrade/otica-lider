@@ -315,7 +315,7 @@ section.pad{padding:88px 80px;}
 /* CONTACT ICONS */
 .map-frame{width:100%;height:280px;border:none;filter:grayscale(15%);display:block;}
 .contact-icons{
-  display:grid;grid-template-columns:repeat(4,1fr);gap:0;
+  display:grid;grid-template-columns: repeat(3, 1fr);gap:0;
   margin-top:2px;background:var(--gray-light);
 }
 .contact-icon-btn{
@@ -416,6 +416,76 @@ footer{
   .parcela-bar{padding:16px 20px;}
   .contact-icons{grid-template-columns:repeat(2,1fr);}
   .aval-card{flex:0 0 100%;}
+}
+/* ==========================
+   AJUSTES SOMENTE MOBILE
+   ========================== */
+@media (max-width: 768px) {
+
+  /* ESTATÍSTICAS */
+  .hero-stats{
+    display:grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    text-align:center;
+    width:100%;
+  }
+
+  .hero-stats > div{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .stat-n,
+  .stat-l{
+    text-align:center;
+  }
+
+  /* MARCAS */
+  .brands-scroll{
+    display:grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap:16px 10px;
+    text-align:center;
+    justify-items:center;
+  }
+
+  .brand-item{
+    margin:0;
+    white-space:nowrap;
+    font-size:14px;
+  }
+
+  /* BLOCO VERMELHO */
+  .parcela-bar{
+    text-align:center;
+    padding:30px 20px;
+  }
+
+  .parcela-bar > div{
+    width:100%;
+  }
+
+  .parcela-text{
+    text-align:center;
+  }
+
+  .parcela-sub{
+    text-align:center;
+    max-width:320px;
+    margin:10px auto 0;
+  }
+
+  .parcela-cta{
+    display:block;
+    width:100%;
+    max-width:320px;
+    margin:20px auto 0;
+    text-align:center;
+  }
+
 }
 </style>
 </head>
