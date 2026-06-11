@@ -81,6 +81,54 @@ nav.scrolled{height:62px;box-shadow:0 1px 24px rgba(0,0,0,0.07);}
 /* HERO */
 .hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;position:relative;overflow:hidden;}
 .hero-left{
+  .hero-diferenciais {
+  margin: 1.2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.hero-dif-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-bottom: 0.5px solid rgba(176, 90, 26, 0.25);
+}
+
+.hero-dif-item:last-child {
+  border-bottom: none;
+}
+
+.hero-dif-num {
+  font-size: 11px;
+  font-weight: 600;
+  color: #b05a1a;
+  min-width: 22px;
+  padding-top: 2px;
+  letter-spacing: 0.04em;
+  font-family: Arial, sans-serif;
+}
+
+.hero-dif-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.hero-dif-texto strong {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-family: Arial, sans-serif;
+}
+
+.hero-dif-texto span {
+  font-size: 12px;
+  color: #6b5e4e;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
   display:flex;flex-direction:column;justify-content:center;
   padding:120px 60px 80px 80px;background:var(--cream);position:relative;z-index:2;
 }
@@ -615,9 +663,42 @@ footer{
   <div class="hero-left">
     <div class="hero-tag reveal">Goiana — Pernambuco</div>
     <h1 class="hero-title reveal d1">Visão que<br><em>transforma</em><br>cada detalhe</h1>
-    <p class="hero-subtitle reveal d2">Há 25 anos cuidando da visão de Goiana e região. Armações a partir de <strong>R$&nbsp;47,90</strong> até as marcas mais desejadas do mercado.</p>
+    <p class="hero-subtitle reveal d2">Há 25 anos cuidando da visão de Goiana, PE e região. Armações a partir de <strong>R$&nbsp;47,90</strong> até as marcas mais desejadas do mercado.</p>
     <div class="price-badge reveal d2">🏷️ Armações a partir de R$ 47,90 
       até as marcas premium mais desejadas do mercado.</div>
+
+ <!-- Tópicos de diferenciais -->
+    <div class="hero-diferenciais reveal d2">
+      <div class="hero-dif-item">
+        <span class="hero-dif-num">01</span>
+        <div class="hero-dif-texto">
+          <strong>Exame de Vista Gratuito</strong>
+          <span>Avaliação completa com profissionais qualificados.</span>
+        </div>
+      </div>
+      <div class="hero-dif-item">
+        <span class="hero-dif-num">02</span>
+        <div class="hero-dif-texto">
+          <strong>Para Todos os Públicos</strong>
+          <span>De R$ 47,90 até Ray-Ban, Nike e Lacoste.</span>
+        </div>
+      </div>
+      <div class="hero-dif-item">
+        <span class="hero-dif-num">03</span>
+        <div class="hero-dif-texto">
+          <strong>Assistência Técnica na Hora</strong>
+          <span>Consertos e ajustes sem agendamento prévio.</span>
+        </div>
+      </div>
+      <div class="hero-dif-item">
+        <span class="hero-dif-num">04</span>
+        <div class="hero-dif-texto">
+          <strong>10x Sem Juros</strong>
+          <span>Crédito, débito ou PIX.</span>
+        </div>
+      </div>
+    </div>
+
     <div class="hero-btns reveal d3">
 
       <a href="https://wa.me/558194320685?text=Olá,%20vim%20pelo%20site%20da%20Ótica%20Líder.%20Gostaria%20de%20conhecer%20as%20promoções%20e%20condições%20disponíveis%20no%20momento." target="_blank" class="nav-cta"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="..."/></svg>Falar no WhatsApp</a>
@@ -738,7 +819,7 @@ footer{
     <div class="reveal">
       <div class="section-tag">Quem somos</div>
       <h2 class="section-title">A ótica que <em>enxerga</em> por você</h2>
-      <p class="sobre-desc">Desde 2001, somos referência em óptica em Goiana e toda a região. Nossa loja ampla e climatizada oferece centenas de modelos de armações acessíveis a partir de R$&nbsp;47,90 até as marcas premium mais desejadas, com atendimento personalizado e humanizado.</p>
+      <p class="sobre-desc">Desde 2001, somos referência em óptica em Goiana, PE e toda a região. Nossa loja ampla e climatizada oferece centenas de modelos de armações acessíveis a partir de R$&nbsp;47,90 até as marcas premium mais desejadas, com atendimento personalizado e humanizado.</p>
       <div class="sobre-feats">
         <div class="feat-item">
           <div class="feat-num">01</div>
